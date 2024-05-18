@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "TestProject",
-    "slug": "TestProject",
+    "slug": "testprojecttenthousand",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +22,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c8d53cb3-217b-4e2a-ab13-ea5e0e60b267"
+      }
+    },
+    "owner": "anastasiyabudko",
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
